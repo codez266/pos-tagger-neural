@@ -3,6 +3,10 @@
 A simple pos tagger using neural nets. The corpora used was brown corpus.
 The library for neural nets is keras.
 
+## Architecture
+I used a simple feed forward neural network with a single hidden layer of 100 neurons,
+and a multiclass output for 472 tags.
+
 ## Stats of the first few tags from report.txt on brown corpus
 				 precision    recall  f1-score   support
 
